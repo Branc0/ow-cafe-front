@@ -18,7 +18,10 @@ function classNames(...classes) {
 
 export function Header() {
   return (
-    <Disclosure as="nav" className="bg-zinc-900 fixed top-0 left-0 w-screen">
+    <Disclosure
+      as="nav"
+      className="bg-zinc-900 fixed top-0 left-0 w-screen z-50"
+    >
       {({ open }) => (
         <>
           <div className="container mx-auto px-2 sm:px-6 lg:px-8">
