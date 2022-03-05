@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Header } from "../components/Header";
+import { Header } from "../components/Layout/Header";
 
 export default function Home() {
   return (
@@ -12,7 +12,6 @@ export default function Home() {
           content="Ow! café ? Restaurant. ATENDEMOS: (SEG- TERÇA 11H-18H), (QUARTA A SEXTA 9H-18H) e (SÁBADOS 9H-16H.). "
         />
       </Head>
-      <Header></Header>
       <main>
         <section className="lg:h-screen bg-zinc-900">
           <div className="container mx-auto px-2 sm:px-6 lg:px-8 sm:text-center lg:text-left">

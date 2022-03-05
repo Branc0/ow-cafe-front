@@ -16,7 +16,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export function Header() {
+export default function Header() {
   return (
     <Disclosure
       as="nav"
